@@ -1,0 +1,38 @@
+codeversations/
+├── package.json
+├── tsconfig.json
+├── README.md
+├── .vscode/
+│   ├── launch.json
+│   └── tasks.json
+├── .vscodeignore
+├── src/
+│   ├── extension.ts
+│   ├── game/
+│   │   ├── conversationEngine.ts
+│   │   └── episodeManager.ts
+│   └── utils/
+│       └── streakManager.ts
+├── assets/
+│   ├── styles/
+│   │   └── pixel-ui.css
+│   ├── fonts/
+│   │   └── pixel-font.woff2
+│   └── images/
+│       ├── characters/
+│       │   ├── karen.png
+│       │   ├── steve.png
+│       │   ├── maya.png
+│       │   ├── boss.png
+│       │   └── intern.png
+│       ├── backgrounds/
+│       │   ├── office.png
+│       │   └── kitchen.png
+│       └── ui/
+│           ├── dialogue-box.png
+│           ├── button.png
+│           └── stats-panel.png
+├── out/
+│   └── (compiled JavaScript files)
+└── node_modules/
+    └── (dependencies)
