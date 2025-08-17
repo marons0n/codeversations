@@ -1,24 +1,9 @@
-{
-    "name": "codeversations",
-    "displayName": "Codeversations",
-    "description": "Turn your coding sessions into an office politics adventure!",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.80.0"
-    },
-    "activationEvents": [
-        "onCommand:codeversations.start"
-    ],
-    "main": "./extension.js",
-    "contributes": {
-        "commands": [
-            {
-                "command": "codeversations.start",
-                "title": "Start Codeversations"
-            }
-        ]
-    }
-}# Codeversations
+Codeversations
+
+1. build with: npm run compile  
+2. open a new env to run with: F5  
+3. In the new env, press Shift+Ctrl+P --> Start Codeversations
+
 
 Turn your coding sessions into an office politics adventure!  
 Unlock daily episodes, make choices, and climb from intern to CEO through humor and cunning.
@@ -51,43 +36,3 @@ Unlock daily episodes, make choices, and climb from intern to CEO through humor 
 ---
 
 Enjoy your daily dose of office comedy!
-
-
-codeversations/
-├── package.json
-├── tsconfig.json
-├── README.md
-├── .vscode/
-│   ├── launch.json
-│   └── tasks.json
-├── .vscodeignore
-├── src/
-│   ├── extension.ts
-│   ├── game/
-│   │   ├── conversationEngine.ts
-│   │   └── episodeManager.ts
-│   └── utils/
-│       └── streakManager.ts
-├── assets/
-│   ├── styles/
-│   │   └── pixel-ui.css
-│   ├── fonts/
-│   │   └── pixel-font.woff2
-│   └── images/
-│       ├── characters/
-│       │   ├── karen.png
-│       │   ├── steve.png
-│       │   ├── maya.png
-│       │   ├── boss.png
-│       │   └── intern.png
-│       ├── backgrounds/
-│       │   ├── office.png
-│       │   └── kitchen.png
-│       └── ui/
-│           ├── dialogue-box.png
-│           ├── button.png
-│           └── stats-panel.png
-├── out/
-│   └── (compiled JavaScript files)
-└── node_modules/
-    └── (dependencies)
